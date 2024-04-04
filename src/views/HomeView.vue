@@ -16,11 +16,11 @@
 
 <script>
 export default {
-  created() {
-    if (localStorage.getItem("token") === null) {
-      this.$router.push("/login");
-    }
-  },
+  // created() {
+  //   if (localStorage.getItem("token") === null) {
+  //     this.$router.push("/login");
+  //   }
+  // },
 };
 </script>
 
