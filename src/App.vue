@@ -22,7 +22,7 @@ export default {
     Products,
   },
   created() {
-    this.$router.push("home");
+    this.$router.push("shop");
   },
 };
 </script>

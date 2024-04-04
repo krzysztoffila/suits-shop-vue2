@@ -12,14 +12,14 @@
     </b-navbar-nav>
     <b-navbar-nav class="ms-auto">
       <cart-component />
-      <template v-if="isUserLoggedIn">
+      <!-- <template v-if="isUserLoggedIn">
         <b-button variant="danger" @click="logout">Logout</b-button>
       </template>
       <template v-else>
         <router-link to="/login" class="navbar__login-button" variant="dark"
           ><b-button variant="primary">Login</b-button></router-link
         >
-      </template>
+      </template> -->
     </b-navbar-nav>
   </b-navbar>
 </template>

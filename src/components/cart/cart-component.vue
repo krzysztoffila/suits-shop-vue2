@@ -95,10 +95,16 @@ export default {
   &-price {
     line-height: 40px;
   }
-  &-buttons {
+}
+.cart__total-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  & a {
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
   }
 }
 </style>
