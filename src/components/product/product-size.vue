@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      selectedSize: "",
+      selectedSize: "L",
       sizes: ["S", "M", "L", "XL"],
     };
   },
