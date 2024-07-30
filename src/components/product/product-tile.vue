@@ -73,14 +73,15 @@ export default {
   }
   &__box {
     flex-basis: 33%;
-    height: 100%;
-    &-order {
-      float: right;
-      margin: 10px;
-      gap: 20px;
-      &-size {
-        margin-bottom: 10px;
-      }
+    display: flex;
+    flex-direction: column;
+  }
+  &__box-order {
+    float: right;
+    margin: 10px;
+    gap: 20px;
+    &-size {
+      margin-bottom: 10px;
     }
   }
 }
@@ -89,4 +90,17 @@ export default {
     margin-top: 20px;
   }
 }
+
+// .product-card {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   height: 100%;
+// }
+
+// .product-img {
+//   width: 100%;
+//   max-height: 800px;
+//   object-fit: cover;
+// }
 </style>
